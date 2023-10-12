@@ -1,0 +1,131 @@
+.card-img__container {
+  width: 15.5rem;
+  height: 8.5rem;
+  position: absolute;
+}
+
+.card-img__front {
+  color: var(--white);
+}
+
+.card-img__container img {
+  width: 100%;
+}
+
+/* card-img__back img */
+.card-img__back {
+  top: 2rem;
+  right: var(--card-distance);
+}
+
+.card__cvc {
+  position: absolute;
+  right: 1.85rem;
+  top: 3.25rem;
+  color: var(--white);
+  font-size: 0.55rem;
+  letter-spacing: 0.075rem;
+}
+/* .card-img__front img */
+.card-img__front {
+  /* height: 1.5rem;
+  width: 2.5rem; */
+  position: absolute;
+  bottom: 4rem;
+  left: var(--card-details__left);
+  bottom: -2.25rem;
+  left: var(--card-distance);
+}
+
+#card__logo {
+  height: 1.5rem;
+  width: 2.5rem;
+  position: absolute;
+  top: 1rem;
+  left: var(--card-details__left);
+}
+/* .card-imgs__container .card__logo {
+  height: 1.5rem;
+  width: 2.5rem;
+  position: absolute;
+  bottom: 4rem;
+  left: var(--card-details__left);
+} */
+.card__number {
+  position: absolute;
+  bottom: 2rem;
+  left: var(--card-details__left);
+  font-size: 1.05rem;
+  letter-spacing: 0.15rem;
+}
+
+.card__name {
+  position: absolute;
+  bottom: 1rem;
+  left: var(--card-details__left);
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.card__date {
+  font-size: 0.5rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+@media screen and (min-width: 1207px) {
+  .card-img__container {
+    width: 28rem;
+    height: 15rem;
+  }
+  .card-img__back {
+    /* pre update styles */
+    /* top: 54%;
+    right: -14rem; */
+    right: -15rem;
+    top: 50%;
+  }
+  .card__cvc {
+    /* top: 62.5%;
+    right: -11rem; */
+    top: 5.15rem;
+    right: 3.5rem;
+    font-size: 1.25rem;
+  }
+
+  .card-img__front {
+    top: 21%;
+    left: 4rem;
+  }
+
+  #card__logo {
+    width: 4.5rem;
+    height: 3rem;
+    /* bottom: 67.5%;
+    left: 12rem; */
+  }
+
+  .card__number {
+    width: 28rem;
+    font-size: 2rem;
+    bottom: 4rem;
+    /* bottom: 55%;
+    left: 12rem; */
+  }
+
+  .card__name {
+    font-size: 1.5rem;
+    bottom: 1rem;
+    /* bottom: 50%;
+    left: 12rem; */
+  }
+  .card__date {
+    /* bottom: 50.5%;
+    right: -6rem; */
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 1.5rem;
+  }
+}

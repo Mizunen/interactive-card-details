@@ -1,0 +1,73 @@
+:root {
+  --input-gradient: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+  --error: hsl(0, 100%, 66%);
+  --white: hsl(0, 0%, 100%);
+  --light-grayish-velvet: hsl(270, 3%, 87%);
+  --dark-grayish-velvet: hsl(279, 6%, 55%);
+  --very-dark-velvet: hsl(278, 68%, 11%);
+  --card-details__left: 1.25rem;
+  --card-distance: 1rem;
+}
+html {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+main {
+  width: 20.8rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+@media screen and (min-width: 1207px) {
+  main {
+    width: 100vw;
+    flex-direction: row;
+  }
+}

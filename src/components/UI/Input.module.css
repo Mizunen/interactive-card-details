@@ -1,0 +1,28 @@
+.error,
+.error-message {
+  color: var(--error);
+  border-color: var(--error);
+}
+
+.error-message {
+  position: absolute;
+  font-size: 0.65rem;
+  left: 0;
+  bottom: -0.5rem;
+}
+
+.input-container {
+  position: relative;
+}
+
+.month-error {
+  width: 4rem;
+}
+.year-error {
+  width: 3rem;
+  left: 1rem;
+}
+
+.hide {
+  display: none;
+}
